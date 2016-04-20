@@ -5,7 +5,7 @@
   font-style: italic;
 
   .markup.link {
-    color: red;
+    color: @mono-3;
   }
 }
 
@@ -48,15 +48,17 @@
     &.primitive {
       color: @syntax-keyword;
     }
-  }
 
-  &.type {
-    &.class {
-      &.jsdoc {
-        color: olive;
-      }
+  &.class {
+    &.jsdoc {
+      color: @mono-2;
+    }
+    &.todo {
+      color: @syntax-todo
     }
   }
+}
+
 
   &.modifier {
     &.package,
@@ -99,6 +101,10 @@
 
   &.parameter {
     color: @mono-1;
+  }
+
+  &.other.property {
+    color: @syntax-field
   }
 }
 
