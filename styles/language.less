@@ -12,11 +12,15 @@
 .entity {
 
   &.name.type {
-    color: @hue-6-2;
+    color: @syntax-class;
+
+    &.instance {
+      color: @syntax-interface;
+    }
   }
 
   &.other.inherited-class {
-    color: @hue-4;
+    color: @syntax-string;
   }
 }
 
@@ -28,15 +32,19 @@
   }
 
   &.operator {
-    color: @mono-1;
+    color: @syntax-operator;
+
+    &.quantifier.regexp {
+      color: @syntax-keyword;
+    }
   }
 
   &.other.special-method {
-    color: @hue-2;
+    color: @syntax-method;
   }
 
   &.other.unit {
-    color: @hue-6;
+    color: @syntax-operator;
   }
 }
 
@@ -69,38 +77,38 @@
 }
 
 .constant {
-  color: @hue-6;
+  color: @syntax-constant;
 
   &.variable {
-    color: @hue-6;
+    color: @syntax-constant;
   }
 
   &.character.escape {
-    color: @hue-1;
+    color: @syntax-attr;
   }
 
   &.numeric {
-    color: @hue-6;
+    color: @syntax-number;
   }
 
   &.other.color {
-    color: @hue-1;
+    color: @syntax-meta;
   }
 
   &.other.symbol {
-    color: @hue-1;
+    color: @syntax-meta;
   }
 }
 
 .variable {
-  color: @hue-5;
+  color: @syntax-field;
 
   &.interpolation {
-    color: @hue-5-2;
+    color: @syntax-attr;
   }
 
   &.parameter {
-    color: @mono-1;
+    color: @syntax-param;
   }
 
   &.other.property {
@@ -109,24 +117,34 @@
 }
 
 .string {
-  color: @hue-4;
+  color: @syntax-string;
 
 
   &.regexp {
-    color: @hue-1;
+    color: @syntax-operator;
 
     .source.ruby.embedded {
-      color: @hue-6-2;
+      color: @syntax-class;
     }
   }
 
   &.other.link {
-    color: @hue-5;
+    // color: @syntax-tag;
   }
 }
 
 .punctuation {
   &.definition {
+    color: @syntax-operator;
+
+    &.string {
+        color: @syntax-string;
+    }
+
+    &.tag {
+        color: @syntax-tag;
+    }
+
     &.comment {
       color: @mono-3;
     }
@@ -137,16 +155,16 @@
     &.separator,
     &.seperator,
     &.array {
-      color: @mono-1;
+      color: @syntax-operator;
     }
 
     &.heading,
     &.identity {
-      color: @hue-2;
+      color: @syntax-method;
     }
 
     &.bold {
-      color: @hue-6-2;
+      color: @syntax-class;
       font-weight: bold;
     }
 
@@ -158,7 +176,7 @@
 
   &.section {
     &.embedded {
-      color: @hue-5-2;
+      color: @syntax-template;
     }
 
     &.method,
@@ -171,52 +189,52 @@
 
 .support {
   &.class {
-    color: @hue-6-2;
+    color: @syntax-globalvar;
   }
 
   &.type {
-    color: @hue-1;
+    color: @syntax-template;
   }
 
   &.function  {
-    color: @hue-1;
+    color: @syntax-meta;
 
     &.any-method {
-      color: @hue-2;
+      color: @syntax-meta;
     }
   }
 }
 
 .entity {
   &.name.function {
-    color: @hue-2;
+    color: @syntax-method;
   }
 
   &.name.class,
   &.name.type.class {
-    color: @hue-6-2;
+    color: @syntax-class;
   }
 
   &.name.section {
-    color: @hue-2;
+    color: @syntax-method;
   }
 
   &.name.tag {
-    color: @hue-5;
+    color: @syntax-tag;
   }
 
   &.other.attribute-name {
-    color: @hue-6;
+    color: @syntax-attr;
 
     &.id {
-      color: @hue-2;
+      color: @syntax-method;
     }
   }
 }
 
 .meta {
   &.class {
-    color: @hue-6-2;
+    color: @syntax-class;
 
     &.body {
       color: @mono-1;
@@ -239,7 +257,7 @@
   }
 
   &.require {
-    color: @hue-2;
+    color: @syntax-method;
   }
 
   &.selector {
@@ -300,7 +318,7 @@
     color: @hue-5;
 
     .punctuation.definition.heading {
-      color: @hue-2;
+      color: @syntax-method;
     }
   }
 
@@ -309,7 +327,7 @@
   }
 
   &.inserted {
-    color: @hue-4;
+    color: @syntax-string;
   }
 
   &.quote {
@@ -317,6 +335,6 @@
   }
 
   &.raw {
-    color: @hue-4;
+    color: @syntax-string;
   }
 }
