@@ -255,7 +255,7 @@
   }
 
   &.link {
-    color: @hue-6;
+    color: @syntax-tag;
   }
 
   &.require {
@@ -263,7 +263,7 @@
   }
 
   &.selector {
-    // color: @syntax-keyword;
+    // color: @syntax-operator;
   }
 
   &.separator {
@@ -304,7 +304,7 @@
 
 .markup {
   &.bold {
-    color: @hue-6;
+    color: @syntax-tag;
     font-weight: bold;
   }
 
@@ -313,7 +313,7 @@
   }
 
   &.deleted {
-    color: @hue-5;
+    color: @syntax-number;
   }
 
   &.italic {
@@ -322,7 +322,7 @@
   }
 
   &.heading {
-    color: @hue-5;
+    color: @syntax-string;
 
     .punctuation.definition.heading {
       color: @syntax-method;
@@ -338,10 +338,10 @@
   }
 
   &.quote {
-    color: @hue-6;
+    color: @syntax-template;
   }
 
   &.raw {
-    color: @syntax-string;
+    color: @syntax-field;
   }
 }
