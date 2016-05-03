@@ -20,7 +20,7 @@
   }
 
   &.other.inherited-class {
-    color: @syntax-string;
+    color: @syntax-class;
   }
 }
 
@@ -32,7 +32,7 @@
   }
 
   &.operator {
-    color: @syntax-operator;
+    color: @syntax-keyword;
 
     &.quantifier.regexp {
       color: @syntax-keyword;
@@ -121,7 +121,7 @@
 
 
   &.regexp {
-    color: @syntax-operator;
+    // color: @syntax-operator;
 
     .source.ruby.embedded {
       color: @syntax-class;
