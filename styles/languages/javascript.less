@@ -1,6 +1,10 @@
 .source.js {
   .keyword.operator {
-    color: @syntax-operator;
+    color: @syntax-keyword;
+    &.accessor, &.assignment  {
+        color: @syntax-operator
+    }
+
 
     &.quantifier.regexp {
       color: @syntax-keyword;
@@ -17,5 +21,18 @@
     &.void {
       color: @syntax-keyword;
     }
+  }
+
+  .variable {
+      color: @mono-1;
+      &.property {
+          color: @syntax-field;
+      }
+  }
+
+  .constant {
+      &.language {
+          color: @syntax-keyword;
+      }
   }
 }

@@ -25,14 +25,18 @@
 }
 
 .keyword {
-  color: @syntax-keyword;
+  color: @syntax-meta;
 
   &.control {
     color: @syntax-keyword;
+
+    &.html {
+        color: @syntax-tag
+    }
   }
 
   &.operator {
-    color: @syntax-keyword;
+    color: @syntax-operator;
 
     &.quantifier.regexp {
       color: @syntax-keyword;
@@ -138,7 +142,10 @@
 
   &.definition {
     color: @syntax-operator;
+
+    // &.variable {
     // color: @syntax-field;
+    // }
 
     &.string {
         color: @syntax-string;
@@ -185,7 +192,7 @@
     &.method,
     &.class,
     &.inner-class {
-      color: @mono-1;
+      color: @syntax-operator;
     }
   }
 }
@@ -219,7 +226,7 @@
   }
 
   &.name.section {
-    color: @syntax-method;
+    color: @syntax-meta;
   }
 
   &.name.tag {
