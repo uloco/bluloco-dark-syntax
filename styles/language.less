@@ -15,7 +15,7 @@
     color: @syntax-class;
 
     &.instance {
-      color: @syntax-interface;
+      color: @syntax-class;
     }
   }
 
@@ -25,7 +25,8 @@
 }
 
 .keyword {
-  color: @syntax-meta;
+  color: @syntax-keyword;
+  // color: @syntax-meta;
 
   &.control {
     color: @syntax-keyword;
@@ -56,10 +57,14 @@
   color: @syntax-keyword;
 
   &.type {
-    &.annotation,
-    &.primitive {
-      color: @syntax-keyword;
+    &.annotation {
+      color: @syntax-meta;
     }
+
+    &.primitive {
+      color: @syntax-template;
+    }
+
 
   &.class {
     &.jsdoc {
@@ -101,6 +106,10 @@
 
   &.other.symbol {
     color: @syntax-meta;
+  }
+
+  &.language {
+    color: @syntax-keyword;
   }
 }
 
@@ -199,11 +208,11 @@
 
 .support {
   &.class {
-    color: @syntax-globalvar;
+    color: @syntax-class;
   }
 
   &.type {
-    color: @syntax-template;
+    color: @syntax-class;
   }
 
   &.function  {
@@ -237,7 +246,7 @@
     color: @syntax-attr;
 
     &.id {
-      color: @syntax-method;
+      color: @syntax-class;
     }
   }
 }
@@ -252,8 +261,10 @@
   }
 
   &.method-call,
-  &.method {
-    color: @mono-1;
+  &.method,
+  &.function-call {
+    // color: @mono-1;
+    color: @syntax-method;
   }
 
   &.definition {
@@ -285,7 +296,11 @@
 
   &.brace,
   &.delimiter {
-    color: @syntax-operator
+    color: @syntax-operator;
+  }
+
+  &.type {
+    color: @syntax-class;
   }
 }
 
