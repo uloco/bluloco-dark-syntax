@@ -12,7 +12,13 @@
     "color",
     "scheme"
   ],
-  "repository": "https://github.com/atom/bluloco-dark-syntax",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uloco/bluloco-dark-syntax"
+  },
+  "bugs": {
+    "url": "https://github.com/uloco/bluloco-dark-syntax/issues"
+  },
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
