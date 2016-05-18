@@ -20,7 +20,7 @@ I tested a long range of languages, these are just a few.
 ###### Python
 ![py](preview/py.png)
 
-###### Python
+###### Ruby
 ![rb](preview/rb.png)
 
 ###### HTML
