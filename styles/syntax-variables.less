@@ -24,25 +24,24 @@
 @syntax-gutter-background-color:          @syntax-bg; // unused
 @syntax-gutter-background-color-selected: lighten(@syntax-bg, 2%);
 
-// Git colors - For git diff info. i.e. in the gutter
-@syntax-color-renamed:  hsl(208, 100%, 60%);
-@syntax-color-added:    hsl(150,  60%, 54%);
-@syntax-color-modified: hsl(40,   60%, 70%);
-@syntax-color-removed:  hsl(0,    70%, 60%);
+@syntax-color-renamed:  @syntax-string;
+@syntax-color-added:    @syntax-method;
+@syntax-color-modified: @syntax-tag;
+@syntax-color-removed:  @syntax-class;
 
 // For language entity colors
-@syntax-color-variable:   @hue-5;
-@syntax-color-constant:   @hue-6;
-@syntax-color-property:   @syntax-fg;
+@syntax-color-variable:   @syntax-fg;
+@syntax-color-constant:   @syntax-constant;
+@syntax-color-property:   @syntax-field;
 @syntax-color-value:      @syntax-fg;
-@syntax-color-function:   @hue-2;
-@syntax-color-method:     @hue-2;
-@syntax-color-class:      @hue-6-2;
-@syntax-color-keyword:    @hue-3;
-@syntax-color-tag:        @hue-5;
-@syntax-color-attribute:  @hue-6;
-@syntax-color-import:     @hue-3;
-@syntax-color-snippet:    @hue-4;
+@syntax-color-function:   @syntax-method;
+@syntax-color-method:     @syntax-method;
+@syntax-color-class:      @syntax-class;
+@syntax-color-keyword:    @syntax-keyword;
+@syntax-color-tag:        @syntax-tag;
+@syntax-color-attribute:  @syntax-attr;
+@syntax-color-import:     @syntax-class;
+@syntax-color-snippet:    @syntax-template;
 
 
 // Custom Syntax Variables -----------------------------------
