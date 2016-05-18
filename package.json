@@ -2,10 +2,15 @@
   "name": "bluloco-dark-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "A fancy but yet sophisticated dark designer color scheme for the Atom editor",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "bluloco",
+    "designer",
+    "meaningful",
+    "color",
+    "scheme"
   ],
   "repository": "https://github.com/atom/bluloco-dark-syntax",
   "license": "MIT",

@@ -1,5 +1,30 @@
 # bluloco-dark-syntax theme
 
-A short description of your theme.
+### Description
+A fancy but yet sophisticated dark designer color scheme for the Atom Editor.
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+Originally forked from the beatiful One Dark Theme, enhanced with the meaningful intuitive bluloco color palette.
+
+Give it a try :)
+
+### Screenshots
+Here are a bunch of screenshots.
+I tested a long range of languages, these are just a few.
+
+###### Javascript
+![js](preview/js.png)
+
+###### Typescript
+![ts](preview/ts.png)
+
+###### Python
+![py](preview/py.png)
+
+###### Python
+![rb](preview/rb.png)
+
+###### HTML
+![html](preview/html.png)
+
+###### CSS
+![css](preview/css.png)
