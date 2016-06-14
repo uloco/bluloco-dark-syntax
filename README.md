@@ -12,19 +12,20 @@ Here are a bunch of screenshots.
 I tested a long range of languages, these are just a few.
 
 ###### Javascript
-![js](preview/js.png)
+![js](https://github.com/uloco/bluloco-dark-syntax/blob/master/preview/js.png)
+
 
 ###### Typescript
-![ts](preview/ts.png)
+![ts](https://github.com/uloco/bluloco-dark-syntax/blob/master/preview/ts.png)
 
 ###### Python
-![py](preview/py.png)
+![py](https://github.com/uloco/bluloco-dark-syntax/blob/master/preview/py.png)
 
 ###### Ruby
-![rb](preview/rb.png)
+![rb](https://github.com/uloco/bluloco-dark-syntax/blob/master/preview/rb.png)
 
 ###### HTML
-![html](preview/html.png)
+![html](https://github.com/uloco/bluloco-dark-syntax/blob/master/preview/html.png)
 
 ###### CSS
-![css](preview/css.png)
+![css](https://github.com/uloco/bluloco-dark-syntax/blob/master/preview/css.png)
