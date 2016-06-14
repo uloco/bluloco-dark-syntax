@@ -17,7 +17,7 @@ I tested a long range of languages, these are just a few.
 
 
 ###### Typescript
-![ts](https://raw.githubusercontent.com/uloco/bluloco-dark-syntax/master/screenshots/.png)
+![ts](https://raw.githubusercontent.com/uloco/bluloco-dark-syntax/master/screenshots/ts.png)
 
 ###### Python
 ![py](https://raw.githubusercontent.com/uloco/bluloco-dark-syntax/master/screenshots/py.png)
