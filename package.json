@@ -1,7 +1,7 @@
 {
   "name": "bluloco-dark-syntax",
   "theme": "syntax",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A fancy but yet sophisticated dark designer color scheme for the Atom editor",
   "keywords": [
     "syntax",
