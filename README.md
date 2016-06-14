@@ -12,20 +12,20 @@ Here are a bunch of screenshots.
 I tested a long range of languages, these are just a few.
 
 ###### Javascript
-![js](https://github.com/uloco/bluloco-dark-syntax/blob/master/preview/js.png)
+![js](https://raw.githubusercontent.com/uloco/bluloco-dark-syntax/master/preview/js.png)
 
 
 ###### Typescript
-![ts](https://github.com/uloco/bluloco-dark-syntax/blob/master/preview/ts.png)
+![ts](https://raw.githubusercontent.com/uloco/bluloco-dark-syntax/master/preview/ts.png)
 
 ###### Python
-![py](https://github.com/uloco/bluloco-dark-syntax/blob/master/preview/py.png)
+![py](https://raw.githubusercontent.com/uloco/bluloco-dark-syntax/master/preview/py.png)
 
 ###### Ruby
-![rb](https://github.com/uloco/bluloco-dark-syntax/blob/master/preview/rb.png)
+![rb](https://raw.githubusercontent.com/uloco/bluloco-dark-syntax/master/preview/rb.png)
 
 ###### HTML
-![html](https://github.com/uloco/bluloco-dark-syntax/blob/master/preview/html.png)
+![html](https://raw.githubusercontent.com/uloco/bluloco-dark-syntax/master/preview/html.png)
 
 ###### CSS
-![css](https://github.com/uloco/bluloco-dark-syntax/blob/master/preview/css.png)
+![css](https://raw.githubusercontent.com/uloco/bluloco-dark-syntax/master/preview/css.png)
